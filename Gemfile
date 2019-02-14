@@ -34,6 +34,15 @@ gem 'rack-attack'
 # ActiveModel::Serializer implementation and Rails hooks
 gem 'active_model_serializers', '~> 0.10.0'
 
+# Flexible authentication solution for Rails with Warden.
+gem 'devise'
+
+# OmniAuth is a flexible authentication system utilizing Rack middleware.
+gem 'omniauth'
+
+# Token based authentication for Rails JSON APIs. Designed to work with jToker and ng-token-auth.
+gem 'devise_token_auth'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
